@@ -20,7 +20,7 @@ ShoppingList.create('tomatoes', 3);
 ShoppingList.create('peppers', 4);
 
 Recipes.create('veggie scrambled eggs', ['2 eggs', '1/4 cup milk', '1/4 cup cheese', 'mushrooms', 'onions']);
-
+Recipes.create('pizza', ['crust', 'sauce', 'cheese', 'toppings']);
 // when the root of this router is called with GET, return
 // all current ShoppingList items
 app.get('/shopping-list', (req, res) => {
